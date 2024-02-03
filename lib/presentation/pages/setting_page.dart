@@ -51,7 +51,7 @@ class SettingPage extends StatelessWidget {
                   if (value == true) {
                     final androidInfo = await DeviceInfoPlugin().androidInfo;
 
-                    if (androidInfo.version.sdkInt > 32) {
+                    if (androidInfo.version.sdkInt > 20) {
                       final status = await Permission.notification.status;
 
                       if (status == PermissionStatus.granted) {

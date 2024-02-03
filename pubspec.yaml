@@ -5,15 +5,14 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
-  
+  sdk: '>=3.2.6 <=4.0.0'
 
 dependencies:
   android_alarm_manager_plus: ^3.0.4
   cached_network_image: ^3.3.0
   cupertino_icons: ^1.0.2
   dartz: ^0.10.1
-  device_info_plus: ^9.1.1
+  device_info_plus: ^9.1.2
   flutter:
     sdk: flutter
   flutter_launcher_icons: ^0.13.1
@@ -33,11 +32,11 @@ dependencies:
   sqflite: ^2.3.0
 
 dev_dependencies:
-  mockito: ^5.4.4
   build_runner: ^2.4.8
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
+  mockito: ^5.4.4
 
 flutter_icons:
   android: true
